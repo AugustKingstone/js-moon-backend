@@ -1,0 +1,17 @@
+.env
+node-modules 
+node-modules/*
+dist/
+build/
+logs/
+*.log
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/    
+
+
+# Temporary files
+*.tmp
+.cache/
