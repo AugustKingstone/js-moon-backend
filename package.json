@@ -10,7 +10,12 @@
     "lint": "eslint src/ --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "migrate": "npx prisma migrate dev",
+    "migrate:prod": "npx prisma migrate deploy",
+    "seed": "ts-node src/database/seeds/seed.ts",
+    "db:reset": "npx prisma migrate reset",
+    "generate": "npx prisma generate"
   },
   "keywords": [],
   "author": "",

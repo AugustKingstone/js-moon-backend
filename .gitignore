@@ -4,6 +4,7 @@ dist/
 build/
 logs/
 *.log
+logs/
 *.bak
 *.swp
 .DS_Store
